@@ -1,0 +1,43 @@
+.case1, .case2, .case3, .case4{
+    color:white;
+    background-color:green;
+    font-size:10px;
+    height:45px;
+}
+.log{
+    color:black;
+    background-color:green;
+    height:300px;
+    position:relative;
+    left:550px;
+    top:210px;
+    text-align:center;
+}
+input[type=text], input[type=password]{
+    margin: 9px 0;
+    height:30px;
+    border:1px solid #ccc;
+}
+input[type=submit]{
+    background-color:#fff;
+    color:black;
+    padding: 10px 30px;
+    border:none;
+    cursor: pointer;
+}
+.cas1, .cas2, .cas3, .cas4{
+    color:white;
+    background-color:gray;
+    text-align:center;
+}
+.cas1{
+}
+.cas2{
+    background-color:maroon;
+}
+.cas3{
+    background-color:red;
+}
+.cas4{
+    background-color:purple;
+}
