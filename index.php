@@ -18,10 +18,10 @@
                     <i class="fa fa-video-camera fa-4x"> Video</i>
                 </div>
                 <div class="col-md-3 case3">
-                    <i class="fa fa-music fa-4x"> Music</i>
+                    <i class="fa fa-music fa-4x"> Sound</i>
                 </div>
                 <div class="col-md-3 case4">
-                    <i class="fa fa-envelope fa-4x"> Message</i>
+                    <i class="fa fa-envelope fa-4x"> Contact</i>
                 </div>
 
             </div>
