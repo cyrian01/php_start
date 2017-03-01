@@ -25,21 +25,6 @@
                 </div>
 
             </div>
-                <div class="row">
-                    <div class="col-sm-3 log">
-                         <form>
-                            <div class="form-group">
-                                <input type="text" name="pseudo" placeholder="Pseudo" id="psd" class="form-control"/>
-                                <label for="psd">Votre pseudo</label>
-                                <input type="password" name="password" placeholder="Mot de passe" id="pass" class="form-control"/>
-                                <label for="pssword">Votre mot de passe</label>
-                                <input type="submit" value="connexion" class="form-control"/>
-                            </div> 
-                        </form>
-                    </div>
-                </div>
-
-        </div>
 <script src="./assets/js/jquery.min.js"></script>
 <script src="./assets/js/bootstrap.min.js"></script>
 </body>
