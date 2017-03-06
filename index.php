@@ -1,53 +1,51 @@
-<?php 
-    $title="VIDEO.NET";
+<?php
+function compar($p1,$p2){
+    
+    if($p1<$p2){
+        echo $p1,' est inférieur de ',$p2;
+    }
+    else{
+        echo $p1,' est superieur de ',$p2;
+    }
+}
+function addition($p1,$p2){
+    echo 'Somme de ',$p1,' et ',$p2,' est ',$p1+$p2;
+}
+function soustract($p1,$p2){
+    echo $p1,' - ',$p2,' = ',$p1-$p2;
+}
+function test($p1,$p2){
+    if(is_numeric($p1) and is_numeric($p2)){
+        return $p1+$p2;
+    }
+    else{
+        return $p1." ".$p2;
+    }
+}
+
+    $v1=4;
+    $v2=7;
+    $b='<br>';
+    compar($v1,$v2);
+    echo $b;
+    echo $b;
+    $v3=$v1;
+    $v1=$v2;
+    $v2=$v3;
+    echo $v1;
+    echo $b;
+    echo $b;
+    echo $v2;
+    echo $b;
+    echo $b;
+   
+    compar($v1,$v2);
+    echo $b;
+    echo $b;
+    addition($v1,$v2);
+    echo $b;
+    echo $b;
+    soustract($v1,$v2);
+    echo $b;
+    test(4,4);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><?php echo $title;?></title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-</head>
-<body>
-		<div class="header">
-		<a href="index.php"><h1><img src="./assets/image/00.ico" class="logo"/>VIDEO.NET</h1></a>
-		</div>
-        <div class="navbar navbar-renverse">
-             <div class="container-fluid">
-
-                    <ul class="nav navbar-nav">
-                        <li class="navbarbtns"><a href="index.php">Accueil</a></li>
-                        <li class="navbarbtns"><a href="#">Nouveautés</a><li>
-                        <li class="navbarbtns"><a href="#">Les plus téléchargés</a></li>
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    </ul>
-
-             </div>
-        </div>
-        <div class="container-fluid"> 
-                <div class="row">
-                    <div class="col-sm-3 log">
-                         <form>
-                            <div class="form-group">
-                                <input type="text" name="pseudo" placeholder="Pseudo" id="psd" class="form-control"/>
-                                <label for="psd">Votre pseudo</label>
-                                <input type="password" name="password" placeholder="Mot de passe" id="pass" class="form-control"/>
-                                <label for="pssword">Votre mot de passe</label>
-                                <input type="submit" value="connexion" class="form-control"/>
-                            </div> 
-                        </form>
-                    </div>
-                </div>
-        </div>
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
-</body>
-
-</html>
