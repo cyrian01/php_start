@@ -1,16 +1,10 @@
-.case1, .case2, .case3, .case4{
-    color:white;
-    background-color:green;
-    font-size:10px;
-    height:45px;
-}
 .log{
     color:black;
-    background-color:green;
+    background-color:#4CAF50;
     height:300px;
     position:relative;
-    left:550px;
-    top:210px;
+    left:570px;
+    top:190px;
     text-align:center;
 }
 input[type=text], input[type=password]{
@@ -25,19 +19,21 @@ input[type=submit]{
     border:none;
     cursor: pointer;
 }
-.cas1, .cas2, .cas3, .cas4{
-    color:white;
-    background-color:gray;
-    text-align:center;
+.header a{
+	color:black;
+	text-decoration:none;
+	font-family: Capacitor, An Unfortunate Event;
 }
-.cas1{
+.logo{
+	width:40px;
+	height:40px;
 }
-.cas2{
-    background-color:maroon;
+.nav a{
+	color:white;
+	font-size:1.3em;
 }
-.cas3{
-    background-color:red;
-}
-.cas4{
-    background-color:purple;
+
+.navbar-renverse{
+	background-color:#4CAF50;
+	border-radius:none!important;
 }
