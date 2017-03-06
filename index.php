@@ -1,8 +1,11 @@
+<?php 
+    $title="VIDEO.NET";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Video.Net</title>
+    <title><?php echo $title;?></title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
