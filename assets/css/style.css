@@ -1,39 +1,12 @@
-.log{
-    color:black;
-    background-color:#4CAF50;
-    height:300px;
-    position:relative;
-    left:570px;
-    top:190px;
-    text-align:center;
+.table1{
+    background-color:gray;
 }
-input[type=text], input[type=password]{
-    margin: 9px 0;
-    height:30px;
-    border:1px solid #ccc;
+.table2{
+    background-color:lightcoral;
 }
-input[type=submit]{
-    background-color:#fff;
-    color:black;
-    padding: 10px 30px;
-    border:none;
-    cursor: pointer;
+.table3{
+    background-color:darkorange;
 }
-.header a{
-	color:black;
-	text-decoration:none;
-	font-family: Capacitor, An Unfortunate Event;
-}
-.logo{
-	width:40px;
-	height:40px;
-}
-.nav a{
-	color:white;
-	font-size:1.3em;
-}
-
-.navbar-renverse{
-	background-color:#4CAF50;
-	border-radius:none!important;
+.table4{
+    background-color:forestgreen;
 }
