@@ -1,12 +1,11 @@
 .table1{
+    background-color:#34495e;
+    color:white;
+    border:1px solid green;
+}
+.header{
     background-color:gray;
 }
-.table2{
-    background-color:lightcoral;
-}
-.table3{
-    background-color:darkorange;
-}
-.table4{
-    background-color:forestgreen;
+.formu{
+   box-shadow:5px 5px 5px;
 }

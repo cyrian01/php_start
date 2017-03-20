@@ -71,11 +71,14 @@ function mult($m){
 
 </head>
 <body>
+        <div class="jumbotrom header text-center">
+            <h1>Table de Multiplication</h1>
+        </div>
         <div class="container-fluid">
                 <div class="row">
                 <?php 
-                    for($i=2; $i<=20; $i++){
-                        echo '<div class="col-md-2 text-center"><br>';
+                    for($i=2; $i<=25; $i++){
+                        echo '<div class="col-md-2 table1 text-center"><br>';
                         echo 'Table '.$i.'<br>';
                         echo mult($i);
                         echo '</div>'; 
